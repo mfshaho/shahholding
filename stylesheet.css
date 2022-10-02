@@ -1,0 +1,155 @@
+@font-face{
+   font-family:'K24 Kurdish Bold Bold'; src:url('fonts/k24-bold-webfont.ttf');
+ }
+
+ html{
+   position:relative;
+   min-height: 100%;
+ }
+
+ html,body{
+   margin:0;
+   padding:20px;
+ }
+ .pageContentWrapper{
+   margin-bottom:100px;
+ }
+
+body {
+  font-family: "Product Sans";
+  background: #141C2D;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #e7e7e7;
+  font-weight: lighter;
+}
+h3 {
+  color: #e7e7e7;
+  font-weight: bolder;
+  padding-left: 10%;
+}
+p {
+  color: #e7e7e7;
+}
+
+a { color: #e7e7e7 }
+a:hover { color: #333333 }
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+
+.header {
+  padding: 15px;
+}
+
+.brand {
+  width: 16%;
+}
+
+.ourcom {
+  text-align: left;
+}
+.companies {
+  width: 15%;
+  vertical-align:middle;margin:5px 25px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 18px;
+  margin: 8px;
+  color: #e7e7e7;
+  text-align: left;
+  font-size: 20px;
+  font-weight: lighter;
+  border-radius: 16px;
+}
+
+.menu li:hover {
+  background-color: #e7e7e7;
+  color: #333333;
+}
+
+.aside {
+  padding: 15px;
+  color: #e7e7e7;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 18px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:75px;
+
+    color: #e7e7e7;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+    border-radius: 18px;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%; text-align: left}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;  text-align: left}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
